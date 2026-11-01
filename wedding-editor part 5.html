@@ -1363,7 +1363,7 @@ function applyConfig() {
     "footerVenue",
     `${CONFIG.venueName}, ${CONFIG.venueLocation}`.toUpperCase()
   );
-  setText("footerBrand", `Created by · ${CONFIG.brandName}`);
+  setText("footerBrand", ` ${CONFIG.brandName}`);
 
   const mapButton = document.getElementById("mapButton");
   mapButton.href = CONFIG.mapLink || "#";
